@@ -19,8 +19,8 @@ Adapted for Spark Core by Paul Kourany, April 2014
 *********************************************************************/
 
 
-#include "../Adafruit_mfGFX/Adafruit_mfGFX.h"
-#include "Adafruit_PCD8544_mfGFX.h"
+#include "../Adafruit_mfGFX/Adafruit_mfGFX_P.h"
+#include "Adafruit_PCD8544_mfGFX_P.h"
 
 // the memory buffer for the LCD
 uint8_t pcd8544_buffer[LCDWIDTH * LCDHEIGHT / 8] = {
